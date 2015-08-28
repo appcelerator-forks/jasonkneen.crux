@@ -2,7 +2,7 @@
 
 ### Why?
 
-The idea behind **CR**oss-platform **UX** came from a need I had to have a quick way to do cross-platform code in a way that would be easier, consistent and fast for building apps. I wanted a simple way to ensure that I could lay out an app, start coding for iOS, and know when I launched in Android it word work without messing around with it. I also wanted to reduce the amount of code that was creating new views, handling the closing of views etc.
+The idea behind **CR**oss-platform **UX** came from a need I had to have a quick way to do cross-platform code in a way that would be easier, consistent and fast for building apps. I wanted a simple way to ensure that I could lay out an app, start coding for iOS, and know when I launched in Android it would work without messing around with it. I also wanted to reduce the amount of code that was creating new views, handling the closing of views etc.
 
 ### Features
 
