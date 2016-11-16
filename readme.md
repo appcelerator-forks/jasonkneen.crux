@@ -10,7 +10,6 @@ CRUX consists of a number of commonJS libraries (which I'll be releasing in time
 
 * crux.navigator
 * crux.slideview
-* crux.device
 * crux.utils
 * crux.templates
 
@@ -34,7 +33,7 @@ This library is incredibly small (3 lines of code) and yet solves this problem. 
 
 To use:
 
-* use the latest Alloy 1.6.2
+* use the latest Alloy
 * add the *crux.templates.js* file to your Alloy *app/lib* folder
 
 You can create a new view/controller for your template, e.g *template1* and configure it like you would any alloy view, with your default layout:
@@ -62,6 +61,19 @@ Note that the module is specified in the *Alloy* tag -- this means it will be us
 Build the app and the label (Hello World!) will be included in the template specified automatically!
 
 (You can test the exact same code using *Require* instead of *Template* and note that it doesn't work -- you have to explicitly iterate and add the child views yourself in the template).
+
+#### crux.device
+
+Device just offers some basic device details (simple for now) on width height -- and will be expanded to include more
+
+To use:
+
+```
+Alloy.Globals.device = require("crux.device");
+```
+or if you want to separate from Alloy.Globals:
+
+```Alloy.Device = require("crux.device")';```
 
 ## License
 
