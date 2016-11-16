@@ -73,7 +73,9 @@ Alloy.Globals.device = require("crux.device");
 ```
 or if you want to separate from Alloy.Globals:
 
-```Alloy.Device = require("crux.device")';```
+```
+Alloy.Device = require("crux.device")';
+```
 
 ## License
 
